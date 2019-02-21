@@ -1,0 +1,9 @@
+{
+    "dbConfig": {
+      "url": "mongodb://localhost:27017/cars-database",
+      "type": "mongodb",
+      "host": "localhost",
+      "port": 27017,
+      "dbName": "cars-database"
+    }
+}
