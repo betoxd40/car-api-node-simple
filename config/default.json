@@ -1,6 +1,6 @@
 {
     "dbConfig": {
-      "url": "mongodb://localhost:27017/cars-database",
+      "url": "mongodb+srv://betoxd40:yanes6514@carp-api-cluster-mongodb-nfzrl.mongodb.net/test?retryWrites=true",
       "type": "mongodb",
       "host": "localhost",
       "port": 27017,
