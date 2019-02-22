@@ -10,6 +10,7 @@ router.route('/')
 
 router.route('/:id')
     .put(carController.put)
+    .patch(carController.patch)
     .delete(carController.delete);
 
 module.exports = router;

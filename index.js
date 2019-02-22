@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use('/api', apiRoutes);
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // Setup server port
 const port = process.env.PORT || 5000;
